@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #d7a0b0, #807cd7);
+  font-family: "Manrope", s707ans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container {
+  /* background-color: aqua; */
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header_box {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.notes_img {
+  height: 50px;
+}
+
+button {
+  background-image: linear-gradient(to bottom, #6237d0, #7d52d2);
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  margin: 30px 0;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+button img {
+  height: 18px;
+}
+
+/* .text_box {
+  background-color: #d7a0b0;
+  display: flex;
+}
+
+#note_box {
+  width: 350px;
+  height: 120px;
+  border: none;
+  background-color: #fff;
+  resize: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.img_box {
+  height: 120px;
+  background-color: #fff;
+  padding-right: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.text_box img {
+  background-color: #fff;
+  height: 20px;
+  margin-top: 90px;
+} */
+
+p {
+  background-color: #fff;
+  height: 120px;
+  width: 400px;
+  position: relative;
+  border-radius: 5px;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* display: none; */
+}
+
+p img {
+  position: absolute;
+  height: 20px;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
